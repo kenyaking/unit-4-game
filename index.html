@@ -23,9 +23,27 @@
     <div class="row-item games">
         <div class="target_score">
             <div class="target_score_content" id="target_text">Target score: </div>
-            <div class="target_score_content" id="target_value">39</div>
+            <div class="target_score_content" id="target_value">29</div>
         </div>
-
+            <div class="game_result">
+                <div class="game_result_content">Wins: <span id="win_games">0</span></div>
+                <div class="game_result_content">Loses: <span id="lose_games">0</span></div>
+            </div>
+            <div class="my_score">
+                <div class="score_content" id="score_text">Your total score is: </div>
+                <div class="score_content" id="score_value">12</div>
+            </div>
+        </div>
+        <div class="row-item game-buttons">
+            <button id="crystal1" onclick="crystal1()"></button>
+            <button id="crystal2" onclick="crystal2()"></button>
+            <button id="crystal3" onclick="crystal3()"></button>
+            <button id="crystal4" onclick="crystal4()"></button>
+        </div>
+    </div>
+    
+    <script src="./assets/javascript/game.js"></script>
+    
 
 </body>
 </html>
