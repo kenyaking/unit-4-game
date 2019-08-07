@@ -10,3 +10,10 @@ body {
     padding: 3%;
     text-align: center;
 }
+#crystal_description {
+    background: rgb(226, 226, 221);
+}
+#crystal_description p {
+    color: rgb(37, 99, 170);
+    padding: 1%;
+}
