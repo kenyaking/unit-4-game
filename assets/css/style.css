@@ -1,0 +1,12 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+}
+.row-item {
+    padding-top: 0.5%;
+}
+#crystal_title {
+    background: rgb(37, 99, 170);
+    padding: 3%;
+    text-align: center;
+}
