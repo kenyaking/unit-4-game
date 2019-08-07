@@ -17,3 +17,11 @@ body {
     color: rgb(37, 99, 170);
     padding: 1%;
 }
+.games {
+    flex-wrap: wrap;
+    display: flex;
+}
+.target_score {
+    flex: 1;
+    padding: 1%;
+}
