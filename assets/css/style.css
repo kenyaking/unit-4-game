@@ -9,6 +9,7 @@ body {
     background: rgb(37, 99, 170);
     padding: 3%;
     text-align: center;
+    color: white
 }
 #crystal_description {
     background: rgb(226, 226, 221);
@@ -24,4 +25,80 @@ body {
 .target_score {
     flex: 1;
     padding: 1%;
+}
+
+.games {
+    flex-wrap: wrap;
+    display: flex;
+}
+.target_score {
+    flex: 1;
+    padding: 1%;
+}
+.target_score_content {
+    background: rgba(37, 99, 170);
+    padding: 2%;
+    color: white
+}
+.target_score:nth-child(2) {
+    height: 100%;
+}
+.game_result {
+    flex: 1;
+    padding: 1%;
+}
+.game_result_content {
+    background: rgba(74, 199, 43, 0.85);
+    padding: 2%;
+}
+.my_score {
+    color: white;
+    flex: 1;
+    padding: 1%;
+}
+.score_content {
+    background: rgba(37, 99, 170);
+    padding: 2%;
+}
+.game-buttons {
+    text-align: center;
+}
+button#crystal1{
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/1.png");
+    background-size: cover;
+}
+button#crystal2{
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/2.png");
+    background-size: cover;
+}
+button#crystal3{
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/3.png");
+    background-size: cover;
+}
+button#crystal4{
+    width: 80px;
+    height: 80px;
+    background-image: url("../images/4.png");
+    background-size: cover;
+}
+
+@media screen and (max-width: 768px) {
+    .target_score {
+        width: 100%;
+        flex: auto;
+    }
+    .game_result {
+        width: 100%;
+        flex: auto;
+    }
+    .my_score {
+        width: 100%;
+        flex: auto;
+    }
 }
