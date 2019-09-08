@@ -1,7 +1,9 @@
 # unit-4-game
 
-This application is a game where the user is shown a random number at the start of the game and must match that number in order to win. Users click on “crystal” buttons that have hidden numbers. If the user exceeds the number shown, the user loses the game.
+Challenge/Problem: A game app that includes hidden data and calculations.
 
+Solution: I created a game where the player is shown a random number at the start of the game. The goals of the game is to match the number shown. Players click on “crystal” buttons that have hidden numbers. As the player clicks the crystals, each number is added to the total. If the player exceeds the random number shown, the player loses the game. If the player matches the number, he wins the game. 
 https://kenyaking.github.io/unit-4-game/
 
-Technical: The app uses bootstrap for the layout, javascript and JQuery library for updating the scores.
+Technology: I used Bootstrap, Javascript and jQuery.
+
